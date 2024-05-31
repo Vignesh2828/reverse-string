@@ -1,7 +1,7 @@
 {
-  "name": "reverse-string-sample",
+  "name": "route-encode-decode",
   "version": "1.0.0",
-  "description": "this is npm package for reverse a string",
+  "description": "this is npm package for route encode and decode",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
