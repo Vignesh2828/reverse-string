@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "this is npm package for reverse a string",
   "peerDependencies": {
-    "@types/node": "^x.x.x"
+    "@types/node": "^20.12.13"
   },
   "main": "index.js",
   "scripts": {
