@@ -1,0 +1,22 @@
+{
+  "name": "reverse-string-sample",
+  "version": "1.0.0",
+  "description": "this is npm package for reverse a string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Vignesh2828/reverse-string.git)"
+  },
+  "keywords": [
+    "reverse",
+    "string"
+  ],
+  "author": "vigneshwaran",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.13"
+  }
+}
