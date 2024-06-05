@@ -33,21 +33,21 @@ console.log(decodedId); // Output: '12345'
 # Example Usage in a Router
 Below is an example of how these functions can be integrated into a routing system:
 
->> import express from 'express';
-import { encode, decode } from 'route-id-encoder';
+>>import express from 'express';
+>>import { encode, decode } from 'route-id-encoder';
 
-const app = express();
+>>const app = express();
 
-app.get('/route/:id', (req, res) => {
-    const encodedId = req.params.id;
-    const decodedId = decode(encodedId);
-    // Use the decodedId for your application logic
-    res.send(`Decoded ID: ${decodedId}`);
-});
+>>app.get('/route/:id', (req, res) => {
+  >>  const encodedId = req.params.id;
+    >>const decodedId = decode(encodedId);
+    >>// Use the decodedId for your application logic
+    >>res.send(`Decoded ID: ${decodedId}`);
+>>});
 
-app.listen(3000, () => {
-    console.log('Server is running on port 3000');
-});
+>>app.listen(3000, () => {
+    >>console.log('Server is running on port 3000');
+>>});
 
 # API
 # encode(id: number): string
